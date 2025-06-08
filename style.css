@@ -1,0 +1,45 @@
+button:hover{
+    background-color:#218838
+}
+
+
+doto-uniquifier {
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "ROND" 0;
+}
+
+.todo-container{
+    padding:15px;
+    width: 1200px;
+    border-radius: 15px;
+    box-shadow:0 5px 15px
+    rgb(132, 132, 132);
+    border-width: 10px;
+    border-color:black;
+    max-width:1200px;
+}
+
+body{
+    text-align: center;
+    display:flex;
+    padding:50px;
+}
+
+#input{
+    width: 270px;
+    height: 40px;
+    border-radius:15px;
+    padding: 10px;
+}
+
+button{
+    background-color: #218838;
+    border-radius: 15px;
+    height: 40px;
+    width:50px;
+    padding: 10px;
+}
