@@ -3,16 +3,7 @@ button:hover{
 }
 
 
-doto-uniquifier {
-  font-family: "Doto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "ROND" 0;
-}
-
-.todo-container{
+.shopping_list{
     padding:15px;
     width: 1200px;
     border-radius: 15px;
@@ -21,25 +12,67 @@ doto-uniquifier {
     border-width: 10px;
     border-color:black;
     max-width:1200px;
+    font-family: "Doto", sans-serif;
+    place-items: center;
+    align-items:center; 
 }
 
 body{
     text-align: center;
     display:flex;
     padding:50px;
+    font-family: "Doto", sans-serif;
+    background: linear-gradient(90deg, rgb(23, 143, 77), rgb(8, 184, 184));
 }
 
 #input{
-    width: 270px;
+    width: 450px;
     height: 40px;
     border-radius:15px;
-    padding: 10px;
+    padding: 5px;
+    font-family: "Doto", sans-serif;
+    font-size:17px;
+    border:none;
+    outline:none;
+    
 }
 
 button{
     background-color: #218838;
     border-radius: 15px;
     height: 40px;
-    width:50px;
-    padding: 10px;
+    width:60px;
+    padding: 5px;
+    font-family: "Doto", sans-serif;
+    font-size:17px;
+    border:none;
+    cursor:pointer;
+}
+
+.delete{
+    background-color:#ea1212;
+    width: 45px;
+    padding:4px
+}
+
+.delete:hover{
+    background-color:#b50808;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding:15px;
+    width: 1200px;
+    border-radius: 15px;
+    box-shadow:0 5px 15px
+    rgb(132, 132, 132);
+    border-width: 10px;
+    border-color:black;
+    max-width:400px;
+    font-family: "Doto", sans-serif;
+    place-items: center;
+    align-items:center;
 }
